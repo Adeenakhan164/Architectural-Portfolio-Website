@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects – ArchVision Studio</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo"><span class="logo-arch">ARCH</span><span class="logo-vision">VISION</span><span class="logo-studio">STUDIO</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"><i class="fas fa-sun" id="themeIcon"></i></button>
+        <a href="contact.html" class="btn btn-primary nav-cta">Get Consultation</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1600&q=80')"></div>
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <p class="section-eyebrow">Our Portfolio</p>
+      <h1>Projects</h1>
+    </div>
+  </section>
+
+  <!-- PROJECTS GALLERY -->
+  <section class="section projects-section">
+    <div class="container">
+
+      <!-- FILTER BUTTONS (JavaScript filtering) -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="interior">Interior</button>
+        <button class="filter-btn" data-filter="renovation">Renovation</button>
+      </div>
+
+      <!-- PROJECTS GRID -->
+      <div class="projects-grid">
+
+        <div class="project-card" data-category="commercial">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=700&q=80" alt="Lumina Towers" loading="lazy"/>
+          </div>
+          <div class="project-body">
+            <span class="card-cat">Commercial</span>
+            <h3>Lumina Towers</h3>
+            <p>A 32-floor glass facade commercial tower that redefines Lahore's financial district skyline with sustainable design principles.</p>
+            <div class="project-meta">
+              <span><i class="fas fa-map-marker-alt"></i> Lahore, Pakistan</span>
+              <span><i class="fas fa-calendar"></i> 2023</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="residential">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=700&q=80" alt="Casa Verde Villa" loading="lazy"/>
+          </div>
+          <div class="project-body">
+            <span class="card-cat">Residential</span>
+            <h3>Casa Verde Villa</h3>
+            <p>A sustainable luxury villa built with natural materials, passive solar design, and lush rooftop gardens in a serene suburban setting.</p>
+            <div class="project-meta">
+              <span><i class="fas fa-map-marker-alt"></i> DHA, Lahore</span>
+              <span><i class="fas fa-calendar"></i> 2023</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="interior">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1616137466211-f939a420be84?w=700&q=80" alt="Onyx Penthouse" loading="lazy"/>
+          </div>
+          <div class="project-body">
+            <span class="card-cat">Interior</span>
+            <h3>Onyx Penthouse</h3>
+            <p>A dramatic dark-palette penthouse interior featuring custom furniture, bookmatched marble, and curated art installations.</p>
+            <div class="project-meta">
+              <span><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</span>
+              <span><i class="fas fa-calendar"></i> 2024</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="renovation">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=700&q=80" alt="Heritage House" loading="lazy"/>
+          </div>
+          <div class="project-body">
+            <span class="card-cat">Renovation</span>
+            <h3>1920s Heritage House</h3>
+            <p>Careful restoration of a century-old colonial home, preserving original details while introducing modern comforts and infrastructure.</p>
+            <div class="project-meta">
+              <span><i class="fas fa-map-marker-alt"></i> Old Lahore</span>
+              <span><i class="fas fa-calendar"></i> 2022</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="commercial">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80" alt="Nexus Office Hub" loading="lazy"/>
+          </div>
+          <div class="project-body">
+            <span class="card-cat">Commercial</span>
+            <h3>Nexus Office Hub</h3>
+            <p>A 15,000 sqft co-working and corporate office complex designed around collaborative zones, focus rooms, and wellness spaces.</p>
+            <div class="project-meta">
+              <span><i class="fas fa-map-marker-alt"></i> Islamabad</span>
+              <span><i class="fas fa-calendar"></i> 2023</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="interior">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=700&q=80" alt="Ivory Kitchen" loading="lazy"/>
+          </div>
+          <div class="project-body">
+            <span class="card-cat">Interior</span>
+            <h3>Ivory Kitchen & Living</h3>
+            <p>An open-plan kitchen and living area redesign featuring Venetian plaster walls, solid oak cabinetry, and bespoke pendant lighting.</p>
+            <div class="project-meta">
+              <span><i class="fas fa-map-marker-alt"></i> Gulberg, Lahore</span>
+              <span><i class="fas fa-calendar"></i> 2024</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="residential">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=700&q=80" alt="Skyline Apartments" loading="lazy"/>
+          </div>
+          <div class="project-body">
+            <span class="card-cat">Residential</span>
+            <h3>Skyline Apartments</h3>
+            <p>A 120-unit residential complex with community gardens, rooftop amenities, and unit interiors tailored for modern urban families.</p>
+            <div class="project-meta">
+              <span><i class="fas fa-map-marker-alt"></i> Bahria Town, Rawalpindi</span>
+              <span><i class="fas fa-calendar"></i> 2022</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="renovation">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=700&q=80" alt="The Atelier" loading="lazy"/>
+          </div>
+          <div class="project-body">
+            <span class="card-cat">Renovation</span>
+            <h3>The Atelier Studio</h3>
+            <p>Industrial warehouse conversion into a contemporary creative studio space — exposed brick, polished concrete, and floor-to-ceiling skylights.</p>
+            <div class="project-meta">
+              <span><i class="fas fa-map-marker-alt"></i> Model Town, Lahore</span>
+              <span><i class="fas fa-calendar"></i> 2024</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="commercial">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=700&q=80" alt="Zest Restaurant" loading="lazy"/>
+          </div>
+          <div class="project-body">
+            <span class="card-cat">Commercial</span>
+            <h3>Zest Restaurant & Lounge</h3>
+            <p>A high-end dining environment blending Middle Eastern geometric patterns with contemporary minimalism for a unique guest experience.</p>
+            <div class="project-meta">
+              <span><i class="fas fa-map-marker-alt"></i> Lahore</span>
+              <span><i class="fas fa-calendar"></i> 2023</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Have a project in mind?</h2>
+      <p>We'd love to hear your ideas and explore what we can create together.</p>
+      <a href="contact.html" class="btn btn-light">Contact Us</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><a href="index.html" class="logo"><span class="logo-arch">ARCH</span><span class="logo-vision">VISION</span><span class="logo-studio">STUDIO</span></a><p>Designing the spaces where life unfolds — with precision, creativity, and purpose.</p><div class="social-links"><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a><a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a><a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a></div></div>
+        <div class="footer-links"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="projects.html">Projects</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+        <div class="footer-links"><h4>Services</h4><ul><li><a href="services.html">Architectural Planning</a></li><li><a href="services.html">Interior Design</a></li><li><a href="services.html">Renovation</a></li><li><a href="services.html">Sustainable Design</a></li></ul></div>
+        <div class="footer-contact"><h4>Contact</h4><p><i class="fas fa-map-marker-alt"></i> 42 Design Avenue, Lahore, Pakistan</p><p><i class="fas fa-phone"></i> +92 300 1234567</p><p><i class="fas fa-envelope"></i> info@archvisionstudio.com</p></div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2024 ArchVision Studio. Designed by Fatima Asif & Adeena Khan.</p></div>
+    </div>
+  </footer>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+  <script src="js/main.js"></script>
+</body>
+</html>

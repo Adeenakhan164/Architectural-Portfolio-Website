@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ArchVision Studio – Architectural Portfolio</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <span class="logo-arch">ARCH</span><span class="logo-vision">VISION</span>
+        <span class="logo-studio">STUDIO</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-sun" id="themeIcon"></i>
+        </button>
+        <a href="contact.html" class="btn btn-primary nav-cta">Get Consultation</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Est. 2024 — Premium Architecture</p>
+      <h1 class="hero-title">
+        We Build<br/>
+        <span class="hero-title-accent">Spaces That</span><br/>
+        Inspire.
+      </h1>
+      <p class="hero-desc">Award-winning architectural design for residential, commercial, and interior spaces. Where vision meets structure.</p>
+      <div class="hero-actions">
+        <a href="projects.html" class="btn btn-primary">View Our Work</a>
+        <a href="about.html" class="btn btn-outline">Our Story</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-number" data-target="120">0</span><span class="stat-label">Projects Completed</span></div>
+        <div class="stat"><span class="stat-number" data-target="8">0</span><span class="stat-label">Years Experience</span></div>
+        <div class="stat"><span class="stat-number" data-target="95">0</span><span class="stat-label">Happy Clients</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED PROJECTS ===== -->
+  <section class="section featured-projects">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Portfolio Highlights</p>
+        <h2 class="section-title">Featured Work</h2>
+      </div>
+      <div class="featured-grid">
+        <div class="featured-card featured-card--large">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&q=80" alt="Lumina Towers" loading="lazy"/>
+            <div class="card-overlay">
+              <span class="card-cat">Commercial</span>
+              <h3>Lumina Towers</h3>
+              <p>A 32-floor glass marvel redefining the city skyline.</p>
+              <a href="projects.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="featured-card">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Casa Verde" loading="lazy"/>
+            <div class="card-overlay">
+              <span class="card-cat">Residential</span>
+              <h3>Casa Verde</h3>
+              <p>Sustainable luxury villa with biophilic design.</p>
+              <a href="projects.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="featured-card">
+          <div class="card-img-wrap">
+            <img src="https://images.unsplash.com/photo-1616137466211-f939a420be84?w=600&q=80" alt="Onyx Interior" loading="lazy"/>
+            <div class="card-overlay">
+              <span class="card-cat">Interior</span>
+              <h3>Onyx Penthouse</h3>
+              <p>Bold dark interiors with custom furniture and lighting.</p>
+              <a href="projects.html" class="card-link">View Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-footer">
+        <a href="projects.html" class="btn btn-outline">See All Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="section why-us">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-text">
+          <p class="section-eyebrow">Why ArchVision</p>
+          <h2 class="section-title">Architecture that<br/>tells your story.</h2>
+          <p class="why-desc">We don't just design buildings — we craft experiences. Every line, every material, every space is a deliberate expression of our client's vision and lifestyle.</p>
+          <ul class="why-list">
+            <li><i class="fas fa-check-circle"></i> Client-centered design process</li>
+            <li><i class="fas fa-check-circle"></i> Sustainable materials & practices</li>
+            <li><i class="fas fa-check-circle"></i> On-time, on-budget delivery</li>
+            <li><i class="fas fa-check-circle"></i> Post-project support & maintenance</li>
+          </ul>
+          <a href="services.html" class="btn btn-primary">Our Services</a>
+        </div>
+        <div class="why-image">
+          <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=700&q=80" alt="Architecture team at work" loading="lazy"/>
+          <div class="why-badge">
+            <span class="badge-number">8+</span>
+            <span class="badge-text">Years of Excellence</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES PREVIEW ===== -->
+  <section class="section services-preview">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">What We Do</p>
+        <h2 class="section-title">Our Services</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-drafting-compass"></i></div>
+          <h3>Architectural Planning</h3>
+          <p>From concept sketches to complete construction blueprints tailored to your requirements.</p>
+          <a href="services.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-couch"></i></div>
+          <h3>Interior Design</h3>
+          <p>Transforming spaces into immersive environments with expert material and layout curation.</p>
+          <a href="services.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-tools"></i></div>
+          <h3>Renovation & Restoration</h3>
+          <p>Breathing new life into existing structures while honoring their original character.</p>
+          <a href="services.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-leaf"></i></div>
+          <h3>Sustainable Design</h3>
+          <p>Eco-conscious architecture that reduces footprint without compromising aesthetics.</p>
+          <a href="services.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Client Words</p>
+        <h2 class="section-title">What They Say</h2>
+      </div>
+      <div class="testimonials-slider" id="testimonialSlider">
+        <div class="testimonial-slide active">
+          <div class="testimonial-card">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testimonial-text">"ArchVision transformed our office space into something we couldn't have dreamed of. The attention to detail and communication throughout was exceptional."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">AK</div>
+              <div><strong>Ahmed Khan</strong><span>CEO, TechNova</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testimonial-text">"Our home renovation was completed on time and exceeded every expectation. The team truly listened to what we wanted and delivered perfection."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">SR</div>
+              <div><strong>Sara Raza</strong><span>Homeowner, Lahore</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <p class="testimonial-text">"The sustainable approach ArchVision brought to our commercial building reduced our energy costs by 40%. An investment that keeps paying back."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">MJ</div>
+              <div><strong>M. Javed</strong><span>Director, GreenBuild</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-dots" id="sliderDots">
+        <button class="dot active" data-index="0"></button>
+        <button class="dot" data-index="1"></button>
+        <button class="dot" data-index="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Ready to build your dream space?</h2>
+      <p>Let's start with a free consultation. No commitment required.</p>
+      <a href="contact.html" class="btn btn-light">Book Free Consultation</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span class="logo-arch">ARCH</span><span class="logo-vision">VISION</span>
+            <span class="logo-studio">STUDIO</span>
+          </a>
+          <p>Designing the spaces where life unfolds — with precision, creativity, and purpose.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+            <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Architectural Planning</a></li>
+            <li><a href="services.html">Interior Design</a></li>
+            <li><a href="services.html">Renovation</a></li>
+            <li><a href="services.html">Sustainable Design</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fas fa-map-marker-alt"></i> 42 Design Avenue, Lahore, Pakistan</p>
+          <p><i class="fas fa-phone"></i> +92 300 1234567</p>
+          <p><i class="fas fa-envelope"></i> info@archvisionstudio.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 ArchVision Studio. Designed by Fatima Asif & Adeena Khan.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
